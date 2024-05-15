@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checked Property</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="payment-option">
+      <input type="checkbox" id="myCheckBox"> 
+      <label for="myCheckBox">Subscribe</label><br>
+      
+      <input type="radio" id="visaBtn" name="card"> 
+      <label for="visaBtn">Visa</label><br>
+
+      <input type="radio" id="MasterBtn" name="card"> 
+      <label for="MasterBtn">MasterCard</label><br>
+
+      <input type="radio" id="paypal" name="card"> 
+      <label for="paypal">Paypal</label><br><br>
+      
+      <input type="submit" id="sumbitBtn" onclick="display()">
+
+      <p id="mysubresult"></p>
+      <p id="payment"> </p>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
