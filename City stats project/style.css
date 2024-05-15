@@ -1,0 +1,110 @@
+
+  
+
+  *
+  {
+    margin:0;
+    padding:0;
+  }
+  body{
+    
+    background-color:rgb(231, 231, 231);
+    justify-content: center;
+
+  }
+ h1{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 2px 2px orange;
+ }
+
+ 
+
+  
+  .container{
+    /* display:flex;
+    justify-content: center; */
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 30%;
+    
+     background-color: rgb(248, 112, 0);
+    justify-content: center;
+    border-radius: 40px;
+
+    
+   box-shadow: 10px 10px 10px 10px rgb(252, 255, 250)
+ 
+  }
+ 
+
+  .container>h1{
+    color: #000000;
+     padding:20px;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+   text-shadow: 1px 2px rgb(207, 205, 204);
+  }
+  
+  
+
+  .input-container
+  {
+    display: flex;
+    justify-content: center;
+    
+    padding:30px;
+    
+  }
+  select{
+    padding: 20px;
+    width: 500px;
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    font-size: large;
+    font-size: large;
+    font-weight: 800;
+    background-color: rgb(255, 255, 255);
+  }
+  .btn
+  {
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  button{
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    background-color: rgb(255, 255, 255);
+    padding:20px;
+    border-radius: 30px;
+    width: 400px;
+    font-size: large;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  .output{
+    
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  #result
+  {
+   
+   color: #031812;
+    padding:40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: 800;
+    font-size: xx-large;
+    border-radius: 20px ;
+    text-shadow: 2px 2px rgb(188, 196, 188);
+  }

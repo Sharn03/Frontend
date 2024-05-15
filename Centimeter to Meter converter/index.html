@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src = "script.js"></script> -->
+</head>
+
+<body>
+    <!-- <h1>JavaScript</h1>
+    <label for="user input">Enter your name</label>
+    <input type="text" placeholder="name"> -->
+
+    <!-- <h1 id="message">
+
+    </h1> -->
+
+    <!-- // this is how we can give data to html file via JavaScript -->
+    <!-- <script>
+        <!-- let A = document.getElementById("message");
+        A.innerHTML = "Hello JavaScript";
+    </script> --> -->
+    <div  class = "container">
+        
+    <div class=" box ">
+        <h1>Centimeter to Inches</h1>
+
+        <div class="input-box">
+            <input type="text" id="input" placeholder="centimeter">
+        </div>
+        <br>
+        <div class="btn">
+            <button type="submit" onclick="convert()">Convert to Inches</button>
+        </div>
+        <br>
+        <div class="output">
+            <div id="result">
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+    <script>
+        function convert() {
+            let cmVal = Number(document.getElementById("input").value);
+            let inchVal = cmVal / 2.58;
+            let result = document.getElementById("result");
+            result.innerHTML = inchVal.toFixed(2);
+        }
+
+    </script>
+
+</body>
+
+</html>
