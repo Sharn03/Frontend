@@ -1,0 +1,77 @@
+body {
+   
+    margin: auto 20%;
+    margin-top: 50px; 
+    
+    
+}
+
+#form {
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 20px;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    color: rgba(219, 9, 9, 0.753);
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+}
+
+label {
+    font-size: 1.6rem;
+    margin-left: 10px;
+    color: whitesmoke;
+}
+
+input {
+    border-radius: 10px;
+    padding: 12px;
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0.329);
+    box-sizing: border-box;
+    border:none;
+    color:white;
+   
+}
+
+#button {
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 15px;
+    border: none;
+    background-color:rgba(219, 9, 9, 0.753);
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.input-box.error input {
+    border-color: red;
+}
+
+.input-box.success input {
+    border-color: green;
+}
+
